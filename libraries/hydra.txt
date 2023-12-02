@@ -1,0 +1,4 @@
+'''
+libreria que permite trabajar con archivos de configuración
+'''
+# no es recomendable mezclar la configuración mezclada con el código

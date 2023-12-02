@@ -1,0 +1,6 @@
+#MAKEFILE
+# permite crear comandos cortos y legibles para una serie de tareas.
+'''
+permite
+	automatizar tareas como configurar el entorno
+'''

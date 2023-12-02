@@ -1,0 +1,11 @@
+# LIBRERIAS
+# herramienta para crear proyectos basados en plantillas
+'''
+Una vez instalado, para crear la carpeta estandar 
+ubicarse en la carpeta desde el promp del entorno virtual
+y usar el comando 
+cookiecutter https://github.com/khuyentran1401/data-science-template
+'''
+cookiecutter
+
+

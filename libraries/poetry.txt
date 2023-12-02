@@ -1,0 +1,29 @@
+# POETRY: Gestión de dependencias
+'''
+Permite
+	Separar las dependencias principales y las subdependencias en dos archivos separados (vs requirements.txt)
+	Crear archivos de dependencias legibles
+	Eliminar todas las subdependencias no utilizadas al eliminar una biblioteca
+	Evita instalar nuevos paquetes que entren en conflicto con los paquetes existentes
+	Empaqueta el proyecto en varias líneas de código
+
+'''
+# Alternativa de instalación (entorno base)
+# conda install -c conda-forge poetry
+poetry
+
+# 1. Generar proyecto
+poetry new <project-name>
+
+# 2. instalar todas las dependencias
+poetry install
+
+# 3. Para agregar una nueva libreria PyPl
+poetry add <library-name>
+
+# 4. Para eliminar una libreria
+poetry remove <library-name> 
+
+# Enlazar poetry con el entorno virtual de conda
+#-> poetry env use C:\Users\David Lizarazo\anaconda3\envs\mlops\python.exe 
+

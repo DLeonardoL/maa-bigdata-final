@@ -1,0 +1,2 @@
+#pre-commit: permite hacer una revisión del código y además corregirlo
+pre-commit
